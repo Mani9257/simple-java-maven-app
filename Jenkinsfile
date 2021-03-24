@@ -9,7 +9,7 @@ pipeline {
     stage ('Build') {
         steps {
             sh '/opt/maven/bin/mvn clean install -Dmaven.test.skip=true'
-           sh '/opt/m:aven/bin/mvn clean install -Dmaven.test.skip=true'
+           this is manikanta:
         }
     }
 }
